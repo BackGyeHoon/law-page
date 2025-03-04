@@ -8,6 +8,7 @@ const nextConfig = {
     appDir: true,
   },
   distDir: ".next",
+  rootDir: "src",
   // src 폴더를 기본 경로로 사용
   webpack(config) {
     config.resolve.alias = {
