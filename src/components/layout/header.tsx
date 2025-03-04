@@ -32,7 +32,7 @@ const Header = () => {
         {/* 데스크톱 네비게이션 */}
         <nav className="hidden lg:flex space-x-8">
           <Link
-            href="/about"
+            href="#"
             className="font-medium text-gray-700 hover:text-green-600 transition-colors"
           >
             서비스소개
